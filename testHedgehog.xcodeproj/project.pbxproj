@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B4C80342738670B0095E847 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4C80332738670A0095E847 /* NetworkService.swift */; };
+		4B53849E2736CE37001CD425 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B53849D2736CE37001CD425 /* DataProvider.swift */; };
+		4B8B51BE2739BC7000ADF1E7 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8B51BD2739BC6F00ADF1E7 /* NetworkDataFetcher.swift */; };
 		4BAAD1FF273195860096DE91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD1FE273195860096DE91 /* AppDelegate.swift */; };
 		4BAAD201273195860096DE91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD200273195860096DE91 /* SceneDelegate.swift */; };
-		4BAAD203273195860096DE91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD202273195860096DE91 /* ViewController.swift */; };
 		4BAAD206273195860096DE91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAAD204273195860096DE91 /* Main.storyboard */; };
 		4BAAD2082731958A0096DE91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BAAD2072731958A0096DE91 /* Assets.xcassets */; };
 		4BAAD20B2731958A0096DE91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BAAD2092731958A0096DE91 /* LaunchScreen.storyboard */; };
 		4BAAD2162731958B0096DE91 /* testHedgehogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD2152731958B0096DE91 /* testHedgehogTests.swift */; };
 		4BAAD2202731958B0096DE91 /* testHedgehogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD21F2731958B0096DE91 /* testHedgehogUITests.swift */; };
 		4BAAD2222731958B0096DE91 /* testHedgehogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD2212731958B0096DE91 /* testHedgehogUITestsLaunchTests.swift */; };
+		4BAAD22F2731962B0096DE91 /* AlbumCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD22E2731962B0096DE91 /* AlbumCollectionViewController.swift */; };
+		4BAAD231273196C50096DE91 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD230273196C50096DE91 /* AlbumCollectionViewCell.swift */; };
+		4BAAD2372731D60A0096DE91 /* CurrentTranslationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD2362731D60A0096DE91 /* CurrentTranslationData.swift */; };
+		4BAAD23D273322E10096DE91 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BAAD23C273322E00096DE91 /* SecondVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B4C80332738670A0095E847 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		4B53849D2736CE37001CD425 /* DataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		4B8B51BD2739BC6F00ADF1E7 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
 		4BAAD1FB273195860096DE91 /* testHedgehog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testHedgehog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAAD1FE273195860096DE91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BAAD200273195860096DE91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BAAD202273195860096DE91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BAAD205273195860096DE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BAAD2072731958A0096DE91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BAAD20A2731958A0096DE91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,10 @@
 		4BAAD21B2731958B0096DE91 /* testHedgehogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testHedgehogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BAAD21F2731958B0096DE91 /* testHedgehogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testHedgehogUITests.swift; sourceTree = "<group>"; };
 		4BAAD2212731958B0096DE91 /* testHedgehogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testHedgehogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BAAD22E2731962B0096DE91 /* AlbumCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewController.swift; sourceTree = "<group>"; };
+		4BAAD230273196C50096DE91 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BAAD2362731D60A0096DE91 /* CurrentTranslationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTranslationData.swift; sourceTree = "<group>"; };
+		4BAAD23C273322E00096DE91 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +88,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B29D8D3273C57AD00260E04 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAD2362731D60A0096DE91 /* CurrentTranslationData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B664C7C273E5C4B0031A59F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAD200273195860096DE91 /* SceneDelegate.swift */,
+				4BAAD1FE273195860096DE91 /* AppDelegate.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		4B664C7D273E5C990031A59F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAD204273195860096DE91 /* Main.storyboard */,
+				4BAAD2092731958A0096DE91 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B664C7E273E5CDD0031A59F /* Controller Search */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAD22E2731962B0096DE91 /* AlbumCollectionViewController.swift */,
+				4BAAD230273196C50096DE91 /* AlbumCollectionViewCell.swift */,
+			);
+			name = "Controller Search";
+			sourceTree = "<group>";
+		};
+		4B664C7F273E5CFE0031A59F /* Controller Album */ = {
+			isa = PBXGroup;
+			children = (
+				4BAAD23C273322E00096DE91 /* SecondVC.swift */,
+			);
+			path = "Controller Album";
+			sourceTree = "<group>";
+		};
 		4BAAD1F2273195850096DE91 = {
 			isa = PBXGroup;
 			children = (
@@ -99,12 +154,13 @@
 		4BAAD1FD273195860096DE91 /* testHedgehog */ = {
 			isa = PBXGroup;
 			children = (
-				4BAAD1FE273195860096DE91 /* AppDelegate.swift */,
-				4BAAD200273195860096DE91 /* SceneDelegate.swift */,
-				4BAAD202273195860096DE91 /* ViewController.swift */,
-				4BAAD204273195860096DE91 /* Main.storyboard */,
+				4B664C7F273E5CFE0031A59F /* Controller Album */,
+				4B664C7E273E5CDD0031A59F /* Controller Search */,
+				4B664C7D273E5C990031A59F /* View */,
+				4B664C7C273E5C4B0031A59F /* Application */,
+				4B29D8D3273C57AD00260E04 /* Model */,
+				4BAAD2352731D5B10096DE91 /* Network */,
 				4BAAD2072731958A0096DE91 /* Assets.xcassets */,
-				4BAAD2092731958A0096DE91 /* LaunchScreen.storyboard */,
 				4BAAD20C2731958A0096DE91 /* Info.plist */,
 			);
 			path = testHedgehog;
@@ -125,6 +181,16 @@
 				4BAAD2212731958B0096DE91 /* testHedgehogUITestsLaunchTests.swift */,
 			);
 			path = testHedgehogUITests;
+			sourceTree = "<group>";
+		};
+		4BAAD2352731D5B10096DE91 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				4B53849D2736CE37001CD425 /* DataProvider.swift */,
+				4B4C80332738670A0095E847 /* NetworkService.swift */,
+				4B8B51BD2739BC6F00ADF1E7 /* NetworkDataFetcher.swift */,
+			);
+			name = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,8 +324,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BAAD203273195860096DE91 /* ViewController.swift in Sources */,
+				4B4C80342738670B0095E847 /* NetworkService.swift in Sources */,
+				4BAAD231273196C50096DE91 /* AlbumCollectionViewCell.swift in Sources */,
+				4BAAD22F2731962B0096DE91 /* AlbumCollectionViewController.swift in Sources */,
+				4B8B51BE2739BC7000ADF1E7 /* NetworkDataFetcher.swift in Sources */,
+				4BAAD2372731D60A0096DE91 /* CurrentTranslationData.swift in Sources */,
 				4BAAD1FF273195860096DE91 /* AppDelegate.swift in Sources */,
+				4B53849E2736CE37001CD425 /* DataProvider.swift in Sources */,
+				4BAAD23D273322E10096DE91 /* SecondVC.swift in Sources */,
 				4BAAD201273195860096DE91 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +511,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P7PR5XHDL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testHedgehog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -466,6 +539,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P7PR5XHDL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = testHedgehog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
